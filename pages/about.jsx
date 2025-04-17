@@ -1,8 +1,16 @@
 import React from 'react';
+import Head from 'next/head';
 
 export default function About() {
   return (
     <div className="w-screen h-screen bg-[#111] text-[#fff] flex flex-col">
+           <Head>
+        <title>About Page</title>
+        <meta name="description" content="Дізнайтеся більше про нас" />
+        <meta name="keywords" content="про нас, інформація, розробник" />
+        <meta name="author" content="Miksnis" />
+      </Head>
+        
       <header className="w-full h-[15%] flex justify-center items-center border-b border-gray-700">
         <h2 className="text-3xl font-bold text-center">About Page</h2>
       </header>

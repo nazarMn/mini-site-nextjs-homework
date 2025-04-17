@@ -1,8 +1,15 @@
 import React from 'react';
+import Head from 'next/head';
 
 export default function Contact() {
   return (
     <div className="w-screen h-screen bg-[#111] text-[#fff] flex flex-col">
+         <Head>
+        <title>Contact Page</title>
+        <meta name="description" content="Зв'яжіться з нами" />
+        <meta name="keywords" content="контакти, пошта, лінкедін" />
+        <meta name="author" content="Miksnis" />
+      </Head>
       <header className="w-full h-[15%] flex justify-center items-center border-b border-gray-700">
         <h2 className="text-3xl font-bold text-center">Contact Page</h2>
       </header>
