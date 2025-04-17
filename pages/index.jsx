@@ -20,7 +20,7 @@ export default function Home({ name }) {
         </header>
 
         <main className="w-full h-[85%] flex justify-around items-center px-4">
-          <Card title="Home" />
+          <Card title="Home" href="/home"/>
           <Card title="About" href="/about" />
           <Card title="Contact" href="/contact" />
         </main>
