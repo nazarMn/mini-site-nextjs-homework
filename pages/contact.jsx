@@ -1,17 +1,18 @@
 import React from 'react';
 import Head from 'next/head';
 
-export default function Contact() {
+export default function Contact({ title, developer }) {
   return (
     <div className="w-screen h-screen bg-[#111] text-[#fff] flex flex-col">
-         <Head>
-        <title>Contact Page</title>
+      <Head>
+        <title>{title}</title>
         <meta name="description" content="Зв'яжіться з нами" />
         <meta name="keywords" content="контакти, пошта, лінкедін" />
-        <meta name="author" content="Miksnis" />
+        <meta name="author" content={developer} />
       </Head>
+
       <header className="w-full h-[15%] flex justify-center items-center border-b border-gray-700">
-        <h2 className="text-3xl font-bold text-center">Contact Page</h2>
+        <h2 className="text-3xl font-bold text-center">{title}</h2>
       </header>
 
       <main className="w-full h-[85%] flex flex-col justify-center items-center px-4 space-y-6">
@@ -39,4 +40,13 @@ export default function Contact() {
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      title: 'Contact Page',
+      developer: 'Miksnis',
+    },
+  };
 }
