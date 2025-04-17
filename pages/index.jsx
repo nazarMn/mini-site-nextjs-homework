@@ -20,9 +20,9 @@ export default function Home({ title }) {
         </header>
 
         <main className="w-full h-[85%] flex justify-around items-center px-4">
-          <Card title="Home" href="/home" imageSrc="/images/home.png" />
-          <Card title="About" href="/about" imageSrc="/images/about.png" />
-          <Card title="Contact" href="/contact" imageSrc="/images/contact.png" />
+          <Card title="Home" href="/home" imageSrc="https://img.icons8.com/ios-filled/100/ffffff/home.png" />
+          <Card title="About" href="/about" imageSrc="https://img.icons8.com/ios-filled/100/ffffff/user.png" />
+          <Card title="Contact" href="/contact" imageSrc="https://img.icons8.com/ios-filled/100/ffffff/phone.png" />
         </main>
       </div>
     </>
