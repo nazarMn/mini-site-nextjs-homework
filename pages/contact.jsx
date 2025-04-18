@@ -9,6 +9,7 @@ export default function Contact({ title, developer }) {
         <meta name="description" content="Зв'яжіться з нами" />
         <meta name="keywords" content="контакти, пошта, лінкедін" />
         <meta name="author" content={developer} />
+        <link rel="icon" href="../Hacker-1.svg" />
       </Head>
 
       <header className="w-full h-[15%] flex justify-center items-center border-b border-gray-700">
@@ -22,20 +23,15 @@ export default function Contact({ title, developer }) {
         </div>
 
         <div className="space-y-2 text-center">
-          <p><span className="font-semibold text-white">Email:</span> nazarMn@gmail.com</p>
+          <p><span className="font-semibold text-white">Email:</span> nazarMn2008@gmail.com</p>
           <p><span className="font-semibold text-white">Location:</span> Shklo, Ukraine</p>
         </div>
 
         <div className="flex space-x-6 text-xl mt-4">
-          <a href="https://github.com/miksnis" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+          <a href="https://github.com/nazarMn" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/miksnis" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
-            LinkedIn
-          </a>
-          <a href="https://twitter.com/miksnis" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
-            Twitter
-          </a>
+        
         </div>
       </main>
     </div>

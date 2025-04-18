@@ -11,7 +11,7 @@ export default function Home({ title }) {
         <meta name="keywords" content="головна, сайт, домашня сторінка" />
         <meta name="author" content="Miksnis" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../hacker.png" />
       </Head>
 
       <div className="w-screen h-screen bg-[#111] text-[#fff] flex flex-col">
